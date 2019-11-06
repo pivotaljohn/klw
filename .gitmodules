@@ -1,0 +1,3 @@
+[submodule "images/goflake-server"]
+	path = images/goflake-server
+	url = https://github.com/bstick12/goflake-server
