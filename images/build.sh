@@ -3,7 +3,5 @@
 set -e
 
 git submodule update --init
-docker build -t myimage:latest .
+docker build -f Dockerfile -t goflake-server:latest goflake-server
 
-echo "If all that was successful, you can launch the image with:"
-echo "$ docker run -d -p 8080:8080 myimage"
